@@ -1,0 +1,12 @@
+table :
+  name : 'Boston Housing'
+  column_names : ['crim','zn','indus','chas','nox','rm','age','dis','rad','tax','ptratio','b','lstat']
+  descriptions : ['Per capita crime rate by town','Proportion of residential over 25,000 sq.ft.','Proportion of non-retail business acres/town',
+                   'Charles River dummy variable (= 1 if tract bounds river)','Nitric oxides concentration(parts per 10 million)',
+                   'Average number of rooms per dwelling','Proportion of owner-occupied units prior to 1940',
+                   'Weighted distances to five Boston employment centres','Index of accessibility to highways',
+                   'Full-value property-tax rate per $10,000','Pupil-teacher ratio by town',
+                   'Proportion of blacks by town','% lower status of the population']
+  default_values : [0.00632,18.0,2.31,0,0.538,6.575,65.2,4.0900,1,296,15.3,396.90,4.98]
+  binary_file_path : 'boston_housing_pred/output'
+  binary_file_name : 'boston_model_binary'
