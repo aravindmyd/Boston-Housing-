@@ -46,4 +46,5 @@ if __name__ == '__main__':
         from lib import feature_engineering
         from lib import model_training_scoring
         from lib import predict
+    import test
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 5001)))
